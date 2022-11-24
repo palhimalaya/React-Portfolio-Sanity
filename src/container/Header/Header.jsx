@@ -27,7 +27,17 @@ const Header = () => {
           <div className="badge-cmp app__flex">
             <span>👋</span>
             <div style={{ marginLeft: 20 }}>
-              <p className="p-text">Hello, I am</p>
+              <p className="p-text">
+                Hello,{" "}
+                <a
+                  href="https://himalayapal.sanity.studio/desk"
+                  style={{ textDecoration: "none", cursor: "auto" }}
+                  className="p-text"
+                >
+                  I
+                </a>{" "}
+                am
+              </p>
               <h1 className="head-text">Himalaya Pal</h1>
             </div>
           </div>
