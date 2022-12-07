@@ -6,13 +6,19 @@ const SocialMedia = () => {
   return (
     <div className="app__social">
       <div>
-        <BsTwitter />
+        <a href="https://twitter.com/palhimalaya">
+          <BsTwitter />
+        </a>
       </div>
       <div>
-        <FaFacebookF />
+        <a href="https://www.facebook.com/himalaya.pal">
+          <FaFacebookF />
+        </a>
       </div>
       <div>
-        <BsInstagram />
+        <a href="https://www.instagram.com/palhimalaya/">
+          <BsInstagram />
+        </a>
       </div>
     </div>
   );
